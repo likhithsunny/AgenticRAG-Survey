@@ -103,7 +103,6 @@ Join discussions and share insights via our [Community Forum](#).
 ## **Acknowledgments**
 
 Special thanks to the research community, contributors, and organizations that have supported the development and dissemination of Agentic RAG systems. Acknowledged resources include:
-- [Analytics Vidhya Blog](#).
 - [arXiv Papers on Agentic RAG](#).
 
 ---
