@@ -2,13 +2,20 @@
 
 ![Agentic RAG Taxonomy](./assets/agentic_rag_taxonomy.png)
 
-This repository accompanies the paper "Agentic Retrieval-Augmented Generation (RAG): A Comprehensive Survey," providing an in-depth analysis of Agentic RAG systems, their taxonomy, applications, and future directions.
+This repository accompanies the paper "Agentic Retrieval-Augmented Generation (RAG): A Comprehensive Survey," providing supplementary materials, visualizations, and insights into the taxonomy, applications, and challenges of Agentic RAG systems. The goal is to facilitate understanding and adoption of these advanced paradigms by researchers and practitioners.
 
 ---
 
 ## Abstract
 
-*Provide a concise summary of your paper here.*
+This repository serves as a comprehensive resource for exploring the Agentic Retrieval-Augmented Generation (RAG) framework, which enhances Large Language Models (LLMs) with dynamic retrieval capabilities and agentic intelligence. Here, you'll find:
+
+- A detailed taxonomy of Agentic RAG systems.
+- Visualizations and workflows illustrating the evolution and design of RAG paradigms.
+- Applications across industries such as healthcare, education, and finance.
+- Discussions on challenges and future directions in the development of Agentic RAG.
+
+This repository complements the survey paper by offering practical insights and tools to advance research and application in this domain.
 
 ---
 
@@ -27,13 +34,13 @@ This repository accompanies the paper "Agentic Retrieval-Augmented Generation (R
 
 ## Introduction
 
-*Summarize the foundations of Retrieval-Augmented Generation and its evolution to Agentic RAG.*
+*To be developed: Contextual background on Retrieval-Augmented Generation and its evolution to Agentic RAG.*
 
 ---
 
 ## Taxonomy of Agentic RAG Systems
 
-*Provide a detailed classification of Agentic RAG systems.*
+*To be developed: Detailed classification of Agentic RAG systems.*
 
 ![Taxonomy Diagram](./assets/taxonomy_diagram.png)
 
@@ -41,19 +48,19 @@ This repository accompanies the paper "Agentic Retrieval-Augmented Generation (R
 
 ## Applications
 
-*Discuss real-world use cases across various industries.*
+*To be developed: Real-world use cases across various industries.*
 
 ---
 
 ## Challenges and Future Directions
 
-*Outline current challenges and potential research avenues.*
+*To be developed: Key challenges and potential research avenues.*
 
 ---
 
 ## References
 
-*List relevant papers and resources.*
+*To be developed: List relevant papers and resources.*
 
 ---
 
@@ -69,3 +76,18 @@ If you find this work useful in your research, please cite:
   journal={ArXiv},
   url={https://github.com/YourRepo/AgenticRAG-Survey}
 }
+```
+
+---
+
+## Contact Information
+
+For questions, suggestions, or collaborations, please contact:
+
+- [Your Name](mailto:your.email@example.com)
+
+---
+
+## License
+
+This repository is licensed under the MIT License. See the `LICENSE` file for details.
