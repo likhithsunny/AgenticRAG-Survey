@@ -40,11 +40,85 @@ This repository complements the survey paper by offering practical insights and 
 
 ## Taxonomy of Agentic RAG Systems
 
-*To be developed: Detailed classification of Agentic RAG systems.*
+Agentic Retrieval-Augmented Generation systems can be classified into various architectures and workflows, each tailored to specific tasks and complexities. Below is a detailed taxonomy:
 
-![Taxonomy Diagram](./assets/taxonomy_diagram.png)
+### 1. Single-Agent RAG
+- **Key Idea**: A single autonomous agent manages the retrieval and generation process.
+- **Workflow**: Retrieves data, processes it, and generates a response in a linear manner.
+- **Advantages**: Simple to implement; suitable for basic tasks.
+- **Limitations**: Struggles with multi-step reasoning and large-scale data.
+
+### 2. Multi-Agent RAG
+- **Key Idea**: Multiple agents collaborate to handle complex retrieval and reasoning tasks.
+- **Workflow**: Agents divide tasks dynamically, with each focusing on a specific sub-task.
+- **Advantages**: Improved performance for multi-step and distributed tasks.
+- **Limitations**: Coordination complexity increases with the number of agents.
+
+### 3. Hierarchical Agentic RAG
+- **Key Idea**: Organizes agents in a hierarchy for task prioritization and delegation.
+- **Workflow**: Top-level agents assign subtasks to lower-level agents, iteratively refining results.
+- **Advantages**: Scalability and modularity.
+- **Limitations**: Requires sophisticated orchestration mechanisms.
+
+### 4. Corrective Agentic RAG
+- **Key Idea**: Introduces feedback loops where agents evaluate and refine their outputs.
+- **Workflow**: Iterative process with continuous improvement based on errors detected.
+- **Advantages**: Increased accuracy and reliability.
+- **Limitations**: Computational overhead due to multiple iterations.
+
+### 5. Adaptive Agentic RAG
+- **Key Idea**: Dynamically adapts retrieval strategies and workflows based on task requirements.
+- **Workflow**: Context-aware retrieval and generation with real-time adjustments.
+- **Advantages**: High flexibility and context relevance.
+- **Limitations**: Challenging to design and implement robust adaptive mechanisms.
+
+### 6. Graph-Based Agentic RAG
+- **Key Idea**: Leverages graph structures for multi-hop reasoning and relational understanding.
+- **Workflow**: Constructs and traverses graphs to connect related pieces of information.
+- **Advantages**: Excellent for tasks requiring relational reasoning.
+- **Limitations**: High resource requirements for graph construction and traversal.
+
+### 7. Agentic Document Workflows (ADW)
+
+Agentic Document Workflows (ADW) extend traditional RAG systems by enabling comprehensive automation of document-centric workflows. These workflows integrate parsing, retrieval, reasoning, and structured outputs with intelligent agents.
+
+#### Workflow
+1. **Document Parsing and Structuring**:
+   - Parses documents (e.g., invoices, contracts) to extract structured fields.
+   - Organizes extracted data for downstream processing.
+
+2. **State Maintenance**:
+   - Maintains context across multi-step workflows to ensure consistency and relevance.
+
+3. **Knowledge Retrieval**:
+   - Retrieves relevant references from external knowledge bases or vector indexes.
+   - Fetches domain-specific guidelines for enhanced decision-making.
+
+4. **Agentic Orchestration**:
+   - Intelligent agents apply business rules, perform multi-hop reasoning, and orchestrate external APIs and tools.
+
+5. **Actionable Output Generation**:
+   - Outputs are presented in structured formats (e.g., reports, summaries) tailored to specific use cases.
+
+#### Key Features and Advantages
+- **State Maintenance**: Tracks document context and processing stages.
+- **Scalability**: Handles large-scale document processing with modular agent integration.
+- **Domain-Specific Intelligence**: Applies tailored business rules for precise recommendations.
+- **Enhanced Productivity**: Automates repetitive tasks, augmenting human expertise.
 
 ---
+
+### Visual Representations
+
+![Single-Agent RAG Diagram](./assets/single_agent_rag.png)
+![Multi-Agent RAG Diagram](./assets/multi_agent_rag.png)
+![Hierarchical RAG Workflow](./assets/hierarchical_rag_workflow.png)
+![Graph-Based RAG Workflow](./assets/graph_based_rag.png)
+![ADW Workflow Diagram](./assets/adw_workflow_diagram.png)
+
+---
+
+
 
 ## Applications
 
