@@ -21,17 +21,18 @@ This repository serves as a comprehensive resource for researchers and practitio
 ---
 
 ## Table of Contents
-1. [Abstract](#abstract)
-2. [Introduction](#introduction)
-3. [Agentic Patterns](#agentic-patterns-in-retrieval-augmented-generation)
-4. [Taxonomy of Agentic RAG Systems](#taxonomy-of-agentic-rag-systems)
-5. [Comparative Analysis of Agentic RAG Frameworks](#comparative-analysis-of-agentic-rag-frameworks)
-6. [Applications](#applications)
-7. [Challenges and Future Directions](#challenges-and-future-directions)
-8. [References](#references)
-9. [How to Cite](#how-to-cite)
-10. [Contact Information](#contact-information)
-11. [License](#license)
+1. 📜 [Abstract](#abstract)
+2. 🧩 [Introduction](#introduction)
+3. 🤖 [Agentic Patterns](#agentic-patterns-in-retrieval-augmented-generation)
+4. 🛠️ [Taxonomy of Agentic RAG Systems](#taxonomy-of-agentic-rag-systems)
+5. 🔍 [Comparative Analysis of Agentic RAG Frameworks](#comparative-analysis-of-agentic-rag-frameworks)
+6. 💼 [Applications](#applications)
+7. 🚧 [Challenges and Future Directions](#challenges-and-future-directions)
+8. 📚 [References](#references)
+9. 🖊️ [How to Cite](#how-to-cite)
+10. 📞 [Contact Information](#contact-information)
+11. 📜 [License](#license)
+
 
 
 ---
