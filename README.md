@@ -1,112 +1,165 @@
-# **AgenticRAG-Survey**
+# AgenticRAG-Survey
 
-Welcome to **AgenticRAG-Survey**, an open-source repository dedicated to research, resources, and collaborative insights on **Agentic Retrieval-Augmented Generation (Agentic RAG)** systems. This repository serves as a comprehensive collection of survey papers, benchmarks, datasets, and research artifacts to facilitate advancements in the field of RAG and agentic intelligence.
+![Agentic RAG Taxonomy](./figures/agentic_rag_taxonomy.png)
 
----
+A comprehensive survey on **Agentic Retrieval-Augmented Generation (RAG)**, exploring foundational principles, paradigms, applications, and future directions. This repository accompanies the paper:
 
-## **Contents**
-
-- [Introduction](#introduction)
-- [Papers on Agentic RAG](#papers-on-agentic-rag)
-- [Agentic Patterns in RAG](#agentic-patterns-in-rag)
-- [Benchmarks and Datasets](#benchmarks-and-datasets)
-- [Architectures and Workflows](#architectures-and-workflows)
-- [Contributions](#contributions)
-- [Community Guidelines](#community-guidelines)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
+**"AGENTIC RETRIEVAL-AUGMENTED GENERATION (RAG): A COMPREHENSIVE SURVEY"**
 
 ---
 
-## **Introduction**
+## Abstract
 
-Agentic RAG systems combine the capabilities of Retrieval-Augmented Generation with autonomous decision-making, iterative refinement, and adaptability. By introducing agentic intelligence into RAG workflows, these systems address challenges like hallucination, dynamic query routing, and self-correction.
+Large Language Models (LLMs) have revolutionized artificial intelligence (AI) by enabling human-like text generation and natural language understanding. However, their reliance on static training data limits their ability to respond to dynamic, real-time queries, resulting in outdated or inaccurate outputs. **Retrieval-Augmented Generation (RAG)** enhances LLMs by integrating real-time data retrieval, enabling contextually relevant and up-to-date responses.
 
-This repository aims to support researchers, developers, and practitioners by providing:
-- A curated collection of survey papers on Agentic RAG.
-- Benchmarks and datasets to evaluate RAG systems.
-- Examples of agentic patterns in RAG workflows.
-- Insights into real-world applications and case studies.
+**Agentic RAG** transcends traditional RAG systems by embedding autonomous AI agents that leverage:
+- **Reflection and Planning**
+- **Tool Usage**
+- **Multi-Agent Collaboration**
 
----
-
-## **Papers on Agentic RAG**
-
-A growing collection of survey and research papers that explore various aspects of Agentic RAG:
-- **[Agentic Corrective RAG](#)**: Enhancing retrieval accuracy with iterative corrections.
-- **[Adaptive Agentic RAG](#)**: Dynamically adjusting retrieval strategies based on query complexity.
-- **[Self-Reflective RAG](#)**: Integrating self-critique for quality assurance.
-- **[GraphRAG](#)**: Leveraging graph structures in RAG workflows.
-- **[Collaborative Multi-Agent RAG](#)**: Employing multi-agent architectures for retrieval and generation.
-
-Submit your papers [here](#) to expand the collection.
+This survey provides:
+- A detailed taxonomy of Agentic RAG systems.
+- Key applications across industries like healthcare, finance, and education.
+- Challenges and future directions for scaling Agentic RAG systems.
 
 ---
 
-## **Agentic Patterns in RAG**
+## Repository Structure
 
-Documenting the design patterns that drive agentic intelligence in RAG systems:
-- **Reflection Pattern**: Enabling systems to critique and refine their outputs.
-- **Tool-Use Pattern**: Integrating external APIs or databases for enhanced retrieval.
-- **Planning Pattern**: Managing multi-step retrieval and reasoning workflows.
-- **Collaborative Pattern**: Multi-agent systems for task-specific retrieval.
-
-See detailed examples in our [Agentic Patterns Guide](#).
-
----
-
-## **Benchmarks and Datasets**
-
-Explore datasets and evaluation metrics to benchmark RAG systems:
-- **[MS MARCO](#)**: A large-scale dataset for information retrieval tasks.
-- **[Natural Questions (NQ)](#)**: Real-world questions with annotated answers.
-- **[LangGraph Benchmarks](#)**: State machine-based evaluation metrics for iterative retrieval.
-
-Contribute additional benchmarks by following our [dataset contribution guide](#).
-
----
-
-## **Architectures and Workflows**
-
-Detailed documentation and visualizations of Agentic RAG architectures:
-- **Adaptive RAG Workflow**: [Diagram](#).
-- **Corrective RAG System**: [Diagram](#).
-- **Self-Reflective RAG Architecture**: [Diagram](#).
-- **Collaborative Multi-Agent Workflow**: [Diagram](#).
-
-Access all diagrams in the [Architectures Directory](#).
+```plaintext
+AgenticRAG-Survey/
+│
+├── README.md               # Overview of the repository
+├── docs/
+│   ├── Introduction.md     # Foundations and evolution of RAG
+│   ├── Taxonomy.md         # Taxonomy of Agentic RAG systems
+│   ├── Applications.md     # Applications in various industries
+│   ├── Challenges_Future.md # Challenges and future directions
+│
+├── figures/                # Images and diagrams
+│   ├── agentic_rag_taxonomy.png
+│   ├── workflows.png
+│
+├── benchmarks/             # Benchmarks and datasets
+├── code/                   # Code snippets and tools
+├── examples/               # Use cases and examples
+└── LICENSE                 # License for the repository
+```
 
 ---
 
-## **Contributions**
+## Key Contributions
 
-We welcome contributions from the research community to grow this repository! Here’s how you can contribute:
-1. Submit new survey papers or research articles.
-2. Add benchmarks, datasets, or code implementations.
-3. Share examples of agentic workflows or patterns.
+1. **Comprehensive Overview**:
+   - Evolution of RAG paradigms: Naive RAG, Advanced RAG, Modular RAG, and Agentic RAG.
 
-Please refer to the [CONTRIBUTING.md](#) file for details.
+2. **Taxonomy of Agentic RAG**:
+   - Single-Agent RAG, Multi-Agent RAG, Hierarchical Agentic RAG, and Adaptive Agentic RAG.
 
----
+3. **Applications**:
+   - Customer support, personalized medicine, legal analysis, education, and multimodal workflows.
 
-## **Community Guidelines**
-
-This repository is open to everyone interested in advancing the research and application of Agentic RAG systems. We request:
-- Respectful and constructive collaboration.
-- Proper citation of all referenced materials.
-- Avoidance of unrelated or proprietary content without permissions.
-
-Join discussions and share insights via our [Community Forum](#).
+4. **Challenges and Future Directions**:
+   - Coordination complexity, ethical considerations, and scalability.
 
 ---
 
-## **Acknowledgments**
+## Visual Overview
 
-Special thanks to the research community, contributors, and organizations that have supported the development and dissemination of Agentic RAG systems. Acknowledged resources include:
-- [arXiv Papers on Agentic RAG](#).
+### Taxonomy of Agentic RAG Systems
+![Taxonomy of Agentic RAG](./figures/agentic_rag_taxonomy.png)
 
 ---
 
-## **License**
+## How to Cite
 
-This repository is licensed under the [MIT License](#). See the LICENSE file for details.
+If you find this work useful in your research, please cite:
+
+```bibtex
+@article{agenticRAG,
+  title={Agentic Retrieval-Augmented Generation (RAG): A Comprehensive Survey},
+  author={Your Name and Co-Authors},
+  year={2024},
+  journal={ArXiv},
+  url={https://github.com/YourRepo/AgenticRAG-Survey}
+}
+```
+
+---
+
+## Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/YourRepo/AgenticRAG-Survey.git
+   cd AgenticRAG-Survey
+   ```
+
+2. Explore key sections:
+   - **Introduction**: Learn about the evolution of RAG.
+   - **Taxonomy**: Dive deep into the architectures of Agentic RAG.
+   - **Applications**: Discover real-world use cases.
+
+3. Contribute:
+   - Fork this repository, submit issues, or create pull requests to improve the content.
+
+---
+
+## Contact
+
+For questions, suggestions, or collaborations, please contact:
+- [Your Name](mailto:your.email@example.com)
+
+---
+
+## License
+
+This repository is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+### Detailed Breakdown of Sections in the Survey
+
+#### **1. Foundations of Retrieval-Augmented Generation (RAG)**
+- Overview of traditional RAG systems and their evolution.
+- Components of RAG: Retrieval, Augmentation, and Generation.
+
+#### **2. Evolution of RAG Paradigms**
+- **Naive RAG**: Simple keyword-based retrieval.
+- **Advanced RAG**: Dense vector search and semantic retrieval.
+- **Modular RAG**: Hybrid retrieval and tool integration.
+- **Graph RAG**: Multi-hop reasoning and relational understanding.
+- **Agentic RAG**: Adaptive workflows and multi-agent collaboration.
+
+#### **3. Core Principles of Agentic Intelligence**
+- Agentic Patterns: Reflection, Planning, Tool Use, and Multi-Agent Collaboration.
+- Autonomy and Adaptability.
+- Ethical and Responsible AI.
+
+#### **4. Taxonomy of Agentic RAG Systems**
+- Single-Agent RAG.
+- Multi-Agent RAG.
+- Hierarchical Agentic RAG.
+- Corrective RAG.
+- Adaptive RAG.
+- Graph-Based Agentic RAG.
+
+#### **5. Applications of Agentic RAG**
+- Customer Support and Virtual Assistants.
+- Healthcare and Personalized Medicine.
+- Legal and Contract Analysis.
+- Finance and Risk Analysis.
+- Education and Personalized Learning.
+- Graph-Enhanced Applications in Multimodal Workflows.
+
+#### **6. Implementation and Evaluation**
+- Tools: LangChain, Weaviate, Hugging Face Transformers, Pinecone, OpenAI APIs.
+- Benchmarks: BEIR, MS MARCO, HotpotQA, and others.
+
+#### **7. Challenges and Future Directions**
+- Coordination Complexity in Multi-Agent Systems.
+- Ethical and Responsible AI.
+- Scalability and Latency.
+- Hybrid Human-Agent Collaboration.
+- Expanding Multimodal Capabilities.
+- Developing Specialized Benchmarks.
