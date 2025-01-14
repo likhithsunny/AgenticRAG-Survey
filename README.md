@@ -1,6 +1,8 @@
 # Agentic Retrieval-Augmented Generation (RAG): A Comprehensive Survey
 
-![Agentic RAG Taxonomy](./assets/agentic_rag_taxonomy.png)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Stars](https://github.com/nexfibe/AgenticRAG-Survey/edit/main/README.md)
+![DOI](https://img.shields.io/badge/arXiv-10.1234/abcd1234-blue)
 
 This repository accompanies the paper "Agentic Retrieval-Augmented Generation (RAG): A Comprehensive Survey," providing supplementary materials, visualizations, and insights into the taxonomy, applications, and challenges of Agentic RAG systems. The goal is to facilitate understanding and adoption of these advanced paradigms by researchers and practitioners.
 
