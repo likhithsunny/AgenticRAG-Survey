@@ -230,7 +230,7 @@ Agentic Document Workflows (ADW) extend traditional RAG systems by automating do
 
 ![Single-Agent RAG Diagram](./assets/single_agentic_rag.png)
 ![Multi-Agent RAG Diagram](./assets/multi_agentic_rag.png)
-![Hierarchical RAG Workflow](./assets/hierarchical__agnetic_rag.png)
+![Hierarchical RAG Workflow](./assets/hierarchical__agentic_rag.png)
 ![Graph-Based RAG Workflow](./assets/graph_based_rag.png)
 ![ADW Workflow Diagram](./assets/agentic_doc_workflowam.png)
 
