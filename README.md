@@ -65,10 +65,11 @@ Agentic RAG systems derive their intelligence and adaptability from well-defined
   - Enhances accuracy in multi-step reasoning tasks.
 - **Example**: In a medical diagnostic system, agents refine diagnoses based on iterative feedback from retrieved data.
 
-<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block;">
-  <img src="./assets/agentic_self_reflection.png" alt="Reflection Pattern" style="max-width:100%; height:auto;">
-  <p align="center"><em>Figure 1: Reflection Pattern</em></p>
+<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; text-align: left; margin: 10px; width: 300px;">
+  <img src="./assets/agentic_self_reflection.png" alt="Reflection Pattern" style="width: 50%; height: auto; max-height: 200px;">
+  <p><em>Figure 1: Reflection Pattern</em></p>
 </div>
+
 
 <br><br>
 
@@ -79,10 +80,11 @@ Agentic RAG systems derive their intelligence and adaptability from well-defined
   - Reduces computational overhead through optimized task prioritization.
 - **Example**: A financial analysis system plans data retrieval tasks to assess risks and provide recommendations.
 
-<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block;">
-  <img src="./assets/agentic_planning.png" alt="Planning Pattern" style="max-width:100%; height:auto;">
-  <p align="center"><em>Figure 2: Planning Pattern</em></p>
+<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; text-align: left; margin: 10px; width: 300px;">
+  <img src="./assets/agentic_planning.png" alt="Planning Pattern" style="width: 50%; height: auto; max-height: 200px;">
+  <p><em>Figure 2: Planning Pattern</em></p>
 </div>
+
 
 <br><br>
 
@@ -93,9 +95,9 @@ Agentic RAG systems derive their intelligence and adaptability from well-defined
   - Enables domain-specific applications by integrating external resources.
 - **Example**: A legal assistant agent retrieves clauses from contract databases and applies domain-specific rules for compliance analysis.
 
-<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block;">
-  <img src="./assets/agentic_tool_use.png" alt="Tool Use Pattern" style="max-width:100%; height:auto;">
-  <p align="center"><em>Figure 3: Tool Use Pattern</em></p>
+<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; text-align: left; margin: 10px; width: 300px;">
+  <img src="./assets/agentic_tool_use.png" alt="Tool Use Pattern" style="width: 50%; height: auto; max-height: 200px;">
+  <p><em>Figure 3: Tool Use Pattern</em></p>
 </div>
 
 <br><br>
@@ -107,10 +109,11 @@ Agentic RAG systems derive their intelligence and adaptability from well-defined
   - Combines specialized agent capabilities for better outcomes.
 - **Example**: In customer support, agents collaborate to retrieve knowledge from FAQs, generate responses, and provide follow-ups.
 
-<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block;">
-  <img src="./assets/multi_agent_pattern.png" alt="Multi-Agent Collaboration Pattern" style="max-width:100%; height:auto;">
-  <p align="center"><em>Figure 4: Multi-Agent Collaboration Pattern</em></p>
+<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; text-align: left; margin: 10px; width: 200px;">
+  <img src="./assets/multi_agent_pattern.png" alt="Multi-Agent Collaboration Pattern" style="width: 50%; height: auto; max-height: 200px;">
+  <p><em>Figure 4: Multi-Agent Collaboration Pattern</em></p>
 </div>
+
 
 ---
 
@@ -244,29 +247,29 @@ Agentic Document Workflows (ADW) extend traditional RAG systems by automating do
 
 ### Visual Representations
 
-<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px;">
-  <img src="./assets/single_agentic_RAG.png" alt="Single-Agent RAG Diagram" style="max-width:100%; height:auto;">
-  <p align="center"><em>Figure 5: Single-Agent RAG Diagram</em></p>
+<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px; width: 200px; text-align: center;">
+  <img src="./assets/single_agentic_RAG.png" alt="Single-Agent RAG Diagram" style="width: 50%; height: auto; max-height: 200px;">
+  <p align="left"><em>Figure 5: Single-Agent RAG Diagram</em></p>
 </div>
 
-<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px;">
-  <img src="./assets/multiagent_agentic_rag.png" alt="Multi-Agent RAG Diagram" style="max-width:100%; height:auto;">
-  <p align="center"><em>Figure 6: Multi-Agent RAG Diagram</em></p>
+<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px; width: 200px; text-align: center;">
+  <img src="./assets/multiagent_agentic_rag.png" alt="Multi-Agent RAG Diagram" style="width: 50%; height: auto; max-height: 200px;">
+  <p align="left"><em>Figure 6: Multi-Agent RAG Diagram</em></p>
 </div>
 
-<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px;">
-  <img src="./assets/hierarchical_agentic_rag.png" alt="Hierarchical RAG Workflow" style="max-width:100%; height:auto;">
-  <p align="center"><em>Figure 7: Hierarchical RAG Workflow</em></p>
+<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px; width: 200px; text-align: center;">
+  <img src="./assets/hierarchical_agentic_rag.png" alt="Hierarchical RAG Workflow" style="width: 50%; height: auto; max-height: 200px;">
+  <p align="left"><em>Figure 7: Hierarchical RAG Workflow</em></p>
 </div>
 
-<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px;">
-  <img src="./assets/agent_g.png" alt="Graph-Based RAG Workflow" style="max-width:100%; height:auto;">
-  <p align="center"><em>Figure 8: Graph-Based RAG Workflow</em></p>
+<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px; width: 200px; text-align: center;">
+  <img src="./assets/agent_g.png" alt="Graph-Based RAG Workflow" style="width: 50%; height: auto; max-height: 200px;">
+  <p align="left"><em>Figure 8: Graph-Based RAG Workflow</em></p>
 </div>
 
-<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px;">
-  <img src="./assets/agentic_doc_workflow.png" alt="ADW Workflow Diagram" style="max-width:100%; height:auto;">
-  <p align="center"><em>Figure 9: ADW Workflow Diagram</em></p>
+<div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px; width: 200px; text-align: center;">
+  <img src="./assets/agentic_doc_workflow.png" alt="ADW Workflow Diagram" style="width: 50%; height: auto; max-height: 200px;">
+  <p align="left"><em>Figure 9: ADW Workflow Diagram</em></p>
 </div>
 
 ---
