@@ -93,7 +93,7 @@ Agentic RAG systems derive their intelligence and adaptability from well-defined
   - Handles large-scale and distributed problems efficiently.
   - Combines specialized agent capabilities for better outcomes.
 - **Example**: In customer support, agents collaborate to retrieve knowledge from FAQs, generate responses, and provide follow-ups.
-  ![Multi-Agent Collaboration Pattern](./assets/multi_agent_patternern.png)
+  ![Multi-Agent Collaboration Pattern](./assets/multi_agent_pattern.png)
 
 ---
 
@@ -228,11 +228,11 @@ Agentic Document Workflows (ADW) extend traditional RAG systems by automating do
 
 ### Visual Representations
 
-![Single-Agent RAG Diagram](./assets/single_agentic_rag.png)
-![Multi-Agent RAG Diagram](./assets/multi_agentic_rag.png)
-![Hierarchical RAG Workflow](./assets/hierarchical__agentic_rag.png)
+![Single-Agent RAG Diagram](./assets/single_agentic_RAG.png)
+![Multi-Agent RAG Diagram](./assets/multiagent_agentic_rag.png)
+![Hierarchical RAG Workflow](./assets/hierarchical_agentic_rag.png)
 ![Graph-Based RAG Workflow](./assets/graph_based_rag.png)
-![ADW Workflow Diagram](./assets/agentic_doc_workflowam.png)
+![ADW Workflow Diagram](./assets/agentic_doc_workflow.png)
 
 ---
 
