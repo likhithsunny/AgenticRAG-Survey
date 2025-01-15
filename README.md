@@ -69,7 +69,7 @@ Agentic RAG systems derive their intelligence and adaptability from well-defined
   - Enables iterative refinement of results.
   - Enhances accuracy in multi-step reasoning tasks.
 - **Example**: In a medical diagnostic system, agents refine diagnoses based on iterative feedback from retrieved data.
-- ![Reflection Pattern](./assets/agentic_self_reflection.png)
+  ![Reflection Pattern](./assets/agentic_self_reflection.png)
 
 ### 2. Planning
 - **Definition**: Agents create structured workflows and task sequences to solve problems efficiently.
@@ -77,7 +77,7 @@ Agentic RAG systems derive their intelligence and adaptability from well-defined
   - Facilitates multi-step reasoning by breaking down tasks.
   - Reduces computational overhead through optimized task prioritization.
 - **Example**: A financial analysis system plans data retrieval tasks to assess risks and provide recommendations.
-- ![Planning Pattern](./assets/agentic_planning.png)
+  ![Planning Pattern](./assets/agentic_planning.png)
 
 ### 3. Tool Use
 - **Definition**: Agents interact with external tools, APIs, and knowledge bases to retrieve and process data.
@@ -85,7 +85,7 @@ Agentic RAG systems derive their intelligence and adaptability from well-defined
   - Expands the system's capabilities beyond pre-trained knowledge.
   - Enables domain-specific applications by integrating external resources.
 - **Example**: A legal assistant agent retrieves clauses from contract databases and applies domain-specific rules for compliance analysis.
-- ![Tool Use Pattern](./assets/agentic_tool_use.png)
+ ![Tool Use Pattern](./assets/agentic_tool_use.png)
 
 ### 4. Multi-Agent Collaboration
 - **Definition**: Multiple agents collaborate to divide and conquer complex tasks, sharing information and results.
@@ -93,7 +93,7 @@ Agentic RAG systems derive their intelligence and adaptability from well-defined
   - Handles large-scale and distributed problems efficiently.
   - Combines specialized agent capabilities for better outcomes.
 - **Example**: In customer support, agents collaborate to retrieve knowledge from FAQs, generate responses, and provide follow-ups.
-- ![Multi-Agent Collaboration Pattern](./assets/multi_agent_patternern.png)
+  ![Multi-Agent Collaboration Pattern](./assets/multi_agent_patternern.png)
 
 ---
 
