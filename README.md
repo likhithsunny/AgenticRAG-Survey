@@ -467,35 +467,35 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 - Agent-G: An Agentic Framework for Graph Retrieval Augmented Generation https://openreview.net/forum?id=g2C947jjjQ
 
 ### Blogs and Tutorials on Agentic RAG
-1. DeepLearning.AI. How agents can improve LLM performance. [DeepLearning.AI](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?ref=dl-staging-website.ghost.io), 2024. Accessed: 2025-01-13.
-2. Weaviate Blog. What is agentic RAG? [Weaviate Blog](https://weaviate.io/blog/what-is-agentic-rag#:~:text=is%20Agentic%20RAG%3F-,%E2%80%8B,of%20the%20non%2Dagentic%20pipeline), 2024. Accessed: 2025-01-14.
-3. LangGraph CRAG Tutorial. LangGraph CRAG: Contextualized retrieval-augmented generation tutorial. [LangGraph CRAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_crag/). Accessed: 2025-01-14.
+1. DeepLearning.AI. How agents can improve LLM performance. [DeepLearning.AI](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?ref=dl-staging-website.ghost.io)
+2. Weaviate Blog. What is agentic RAG? [Weaviate Blog](https://weaviate.io/blog/what-is-agentic-rag#:~:text=is%20Agentic%20RAG%3F-,%E2%80%8B,of%20the%20non%2Dagentic%20pipeline)
+3. LangGraph CRAG Tutorial. LangGraph CRAG: Contextualized retrieval-augmented generation tutorial. [LangGraph CRAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_crag/)
 4. LangGraph Adaptive RAG Tutorial. LangGraph adaptive RAG: Adaptive retrieval-augmented generation tutorial. [LangGraph Adaptive RAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_adaptive_rag/). Accessed: 2025-01-14.
-5. LlamaIndex Blog. Agentic RAG with LlamaIndex. [LlamaIndex Blog](https://www.llamaindex.ai/blog/agentic-rag-with-llamaindex-2721b8a49ff6). Accessed: 2025-01-14.
-6. Hugging Face Cookbook. Agentic RAG: Turbocharge your retrieval-augmented generation with query reformulation and self-query. [Hugging Face Cookbook](https://huggingface.co/learn/cookbook/en/agent_rag). Accessed: 2025-01-14.
+5. LlamaIndex Blog. Agentic RAG with LlamaIndex. [LlamaIndex Blog](https://www.llamaindex.ai/blog/agentic-rag-with-llamaindex-2721b8a49ff6)
+6. Hugging Face Cookbook. Agentic RAG: Turbocharge your retrieval-augmented generation with query reformulation and self-query. [Hugging Face Cookbook](https://huggingface.co/learn/cookbook/en/agent_rag)
 7. Hugging Face Agentic RAG: https://huggingface.co/docs/smolagents/en/examples/rag
-8. Qdrant Blog. Agentic RAG: Combining RAG with agents for enhanced information retrieval. [Qdrant Blog](https://qdrant.tech/articles/agentic-rag/). Accessed: 2025-01-14.
+8. Qdrant Blog. Agentic RAG: Combining RAG with agents for enhanced information retrieval. [Qdrant Blog](https://qdrant.tech/articles/agentic-rag/)
 
 ---
 
 ### Applications of Agentic RAG
-1. AWS Machine Learning Blog. How Twitch used agentic workflow with RAG on Amazon Bedrock to supercharge ad sales. [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/how-twitch-used-agentic-workflow-with-rag-on-amazon-bedrock-to-supercharge-ad-sales/), 2025. Accessed: 2025-01-13.
-2. LlamaCloud Demo Repository. Patient case summary workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/document_workflows/patient_case_summary/patient_case_summary.ipynb), 2025. Accessed: 2025-01-13.
-3. LlamaCloud Demo Repository. Contract review workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/document_workflows/contract_review/contract_review.ipynb), 2025. Accessed: 2025-01-13.
-4. LlamaCloud Demo Repository. Auto insurance claims workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/document_workflows/auto_insurance_claims/auto_insurance_claims.ipynb), 2025. Accessed: 2025-01-13.
-5. LlamaCloud Demo Repository. Research paper report generation workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/report_generation/research_paper_report_generation.ipynb), 2025. Accessed: 2025-01-13.
+1. AWS Machine Learning Blog. How Twitch used agentic workflow with RAG on Amazon Bedrock to supercharge ad sales. [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/how-twitch-used-agentic-workflow-with-rag-on-amazon-bedrock-to-supercharge-ad-sales/)
+2. LlamaCloud Demo Repository. Patient case summary workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/document_workflows/patient_case_summary/patient_case_summary.ipynb) 2025. Accessed: 2025-01-13.
+3. LlamaCloud Demo Repository. Contract review workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/document_workflows/contract_review/contract_review.ipynb)
+4. LlamaCloud Demo Repository. Auto insurance claims workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/document_workflows/auto_insurance_claims/auto_insurance_claims.ipynb)
+5. LlamaCloud Demo Repository. Research paper report generation workflow using LlamaCloud.[GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/report_generation/research_paper_report_generation.ipynb)
 
 ---
 
 ### Tutorials and Frameworks
-1. LangGraph Agentic RAG Tutorial. LangGraph agentic RAG: Nodes and edges tutorial. [LangGraph Tutorial](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag/#nodes-and-edges). Accessed: 2025-01-14.
-2. LlamaIndex Documentation. Agentic RAG using Vertex AI. [LlamaIndex Documentation](https://docs.llamaindex.ai/en/stable/examples/agent/agentic_rag_using_vertex_ai/). Accessed: 2025-01-14.
-3. IBM Granite Community. Agentic RAG: AI agents with IBM Granite models. [GitHub](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/AI-Agents/Agentic_RAG.ipynb). Accessed: 2025-01-14.
+1. LangGraph Agentic RAG Tutorial. LangGraph agentic RAG: Nodes and edges tutorial. [LangGraph Tutorial](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag/#nodes-and-edges)
+2. LlamaIndex Documentation. Agentic RAG using Vertex AI. [LlamaIndex Documentation](https://docs.llamaindex.ai/en/stable/examples/agent/agentic_rag_using_vertex_ai/). 
+3. IBM Granite Community. Agentic RAG: AI agents with IBM Granite models. [GitHub](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/AI-Agents/Agentic_RAG.ipynb). 
 
 ---
 
 ### Noteworthy Related Concepts
-1. DeepLearning.AI. Self-refine: Iterative refinement with self-feedback. [DeepLearning.AI](https://www.deeplearning.ai). Accessed: 2025-01-13.
+1. DeepLearning.AI. Self-refine: Iterative refinement with self-feedback. DeepLearning.AI https://www.deeplearning.ai](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/
 
 
 
