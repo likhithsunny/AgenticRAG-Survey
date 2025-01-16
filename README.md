@@ -196,6 +196,19 @@ Agentic Retrieval-Augmented Generation (RAG) systems encompass various architect
   - Challenging to design robust adaptation mechanisms.
   - Computational overhead for real-time adjustments.
 
+<!-- ### 6. Self Reflective Agentic RAG
+- **Key Idea**: Dynamically adjusts retrieval strategies and workflows based on task requirements.
+- **Workflow**:
+  1. The agent assesses the query and its context.
+  2. Adapts retrieval strategies in real-time based on available data and user needs.
+  3. Synthesizes a response using dynamic workflows.
+- **Advantages**:
+  - High flexibility for varied tasks and dynamic environments.
+  - Improves context relevance and user satisfaction.
+- **Limitations**:
+  - Challenging to design robust adaptation mechanisms.
+  - Computational overhead for real-time adjustments. -->
+
 ### 6. Graph-Based Agentic RAG
 Graph-based RAG systems extend traditional RAG by integrating graph-based data structures for advanced reasoning.
 
@@ -443,6 +456,12 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 - Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity https://arxiv.org/abs/2403.14403
 - AT-RAG: An Adaptive RAG Model Enhancing Query Efficiency with Topic Filtering and Iterative Reasoning https://arxiv.org/abs/2410.12886
 
+<!-- #### 5. Self Reflective Agentic RAG
+- Golden-Retriever: High-Fidelity Agentic Retrieval Augmented Generation for Industrial Knowledge Base https://arxiv.org/pdf/2408.00798v1
+- Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection https://arxiv.org/abs/2310.11511
+- Langchain & Langgraph self-Reflective agentic RAG https://blog.langchain.dev/agentic-rag-with-langgraph/
+- Improving Medical Reasoning through Retrieval and Self-Reflection with Retrieval-Augmented Large Language Models https://arxiv.org/abs/2401.15269 -->
+
 #### 5. Graph-Based Agentic RAG
 - GeAR: Graph-enhanced Agent for Retrieval-augmented Generation https://arxiv.org/abs/2412.18431
 - Agent-G: An Agentic Framework for Graph Retrieval Augmented Generation https://openreview.net/forum?id=g2C947jjjQ
@@ -485,7 +504,7 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 
 ---
 
-## How to Cite
+<!-- ## How to Cite
 
 If you find this work useful in your research, please cite:
 
@@ -496,4 +515,5 @@ If you find this work useful in your research, please cite:
   year={2024},
   journal={ArXiv},
   url={https://github.com/YourRepo/AgenticRAG-Survey}
-}
+} -->
+ 
