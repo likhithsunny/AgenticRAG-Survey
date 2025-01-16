@@ -495,7 +495,7 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 
 ### Noteworthy Related Concepts
 1. DeepLearning.AI. Self-refine: Iterative refinement with self-feedback. [DeepLearning.AI](https://www.deeplearning.ai). Accessed: 2025-01-13.
-2. Reflexion: Language agents with verbal reinforcement learning, 2023. [GitHub](https://github.com). Accessed: 2025-01-14.
+
 
 
 
