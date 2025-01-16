@@ -487,7 +487,16 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 ### Tutorials and Frameworks
 1. LangGraph Agentic RAG Tutorial. LangGraph agentic RAG: Nodes and edges tutorial. [LangGraph Tutorial](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag/#nodes-and-edges)
 2. LlamaIndex Documentation. Agentic RAG using Vertex AI. [LlamaIndex Documentation](https://docs.llamaindex.ai/en/stable/examples/agent/agentic_rag_using_vertex_ai/). 
-3. IBM Granite Community. Agentic RAG: AI agents with IBM Granite models. [GitHub](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/AI-Agents/Agentic_RAG.ipynb). 
+3. IBM Granite Community. Agentic RAG: AI agents with IBM Granite models. [GitHub](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/AI-Agents/Agentic_RAG.ipynb).
+   
+
+| Technique                    | Tools                        | Description                                                       | Notebooks |
+|---------------------------------|------------------------------|--------------------------------------------------------------|-----------|
+| Basic Agentic RAG      | LangChain, FAISS, Athina AI                    | Agentic RAG uses AI agents to find and generate answers using tools like vectordb and web searches.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/basic_agentic_rag.ipynb) |
+| Corrective RAG      | LangChain, LangGraph, Chromadb, Athina AI                    | Refines relevant documents, removes irrelevant ones or does the web search.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/corrective_rag.ipynb) |
+| Adaptive RAG      | LangChain, LangGraph, FAISS, Athina AI                    | Adjusts retrieval methods based on query type, using indexed data or web search.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/adaptive_rag.ipynb) |
+<!-- | ReAct RAG      | LangChain, LangGraph, FAISS, Athina AI                    |  System combining reasoning and retrieval for context-aware responses| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/react_rag.ipynb) |
+| Self RAG     | LangChain, LangGraph, FAISS, Athina AI                    | Reflects on retrieved data to ensure accurate and complete responses.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/self_rag.ipynb) | -->
 
 ---
 
