@@ -404,9 +404,6 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
    - Integrating text, image, audio, and video data for richer and more comprehensive outputs.
    - Handling the complexity of multimodal reasoning in real-time applications.
 
-6. **Developing Specialized Benchmarks**:
-   - The lack of standardized benchmarks for evaluating Agentic RAG systems across different domains.
-   - Designing benchmarks that account for multi-hop reasoning, contextual understanding, and ethical considerations.
 
 ---
 
