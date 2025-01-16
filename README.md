@@ -495,7 +495,7 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 ---
 
 ### Noteworthy Related Concepts
-- [Agentic Design Patterns Part 1]([https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-1/](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?ref=dl-staging-website.ghost.io))
+- [Agentic Design Patterns Part 1](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?ref=dl-staging-website.ghost.io)
 - [Agentic Design Patterns Part 2, Reflection](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-2-reflection/)
 - [Agentic Design Patterns Part 3, Tool Use](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-3-tool-use/)
 - [Agentic Design Patterns Part 4, Planning](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-4-planning/)
