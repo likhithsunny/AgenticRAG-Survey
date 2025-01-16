@@ -488,6 +488,10 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 1. LangGraph Agentic RAG Tutorial. LangGraph agentic RAG: Nodes and edges tutorial. [LangGraph Tutorial](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag/#nodes-and-edges)
 2. LlamaIndex Documentation. Agentic RAG using Vertex AI. [LlamaIndex Documentation](https://docs.llamaindex.ai/en/stable/examples/agent/agentic_rag_using_vertex_ai/). 
 3. IBM Granite Community. Agentic RAG: AI agents with IBM Granite models. [GitHub](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/AI-Agents/Agentic_RAG.ipynb).
+4. NVIDIA AI Workbench. Agentic RAG Example  [An NVIDIA AI Workbench Example Project for Agentic Retrieval Augmented Generation (RAG)](https://github.com/NVIDIA/workbench-example-agentic-rag)
+5. AgenticRag CrewAI. [AgenticRag Practical Example](https://github.com/lorenzejay/agentic-rag-practical-example)
+6. Azure RAG Agentic. [Azure GPT RAG Agentic](https://github.com/Azure/gpt-rag-agentic)
+7. Multimodal Agentic RAG. [Multimodal Agentic RAG](https://github.com/AhmedAl93/multimodal-agentic-RAG)
    
 
 | Technique                    | Tools                        | Description                                                       | Notebooks |
