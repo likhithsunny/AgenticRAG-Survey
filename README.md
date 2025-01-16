@@ -1,12 +1,12 @@
-# Agentic Retrieval-Augmented Generation (RAG): A Comprehensive Survey
+# Agentic Retrieval-Augmented Generation : A Survey On Agentic RAG
 
-This repository accompanies the paper "Agentic Retrieval-Augmented Generation (RAG): A Comprehensive Survey," providing supplementary materials, visualizations, and insights into the taxonomy, applications, and challenges of Agentic RAG systems. The goal is to facilitate understanding and adoption of these advanced paradigms by researchers and practitioners.
+This repository accompanies the paper "Agentic Retrieval-Augmented Generation : A Survey On Agentic RAG," providing supplementary materials, visualizations, and insights into the taxonomy, applications, and challenges of Agentic RAG systems. The goal is to facilitate understanding and adoption of these advanced paradigms by researchers and practitioners.
 
 ---
 
 ## Abstract
 
-Agentic Retrieval-Augmented Generation (RAG) represents a transformative leap in artificial intelligence by embedding autonomous agents into the RAG pipeline. This repository complements the survey paper "Agentic Retrieval-Augmented Generation (RAG): A Comprehensive Survey," providing insights into:
+Agentic Retrieval-Augmented Generation ( Agentic RAG) represents a transformative leap in artificial intelligence by embedding autonomous agents into the RAG pipeline. This repository complements the survey paper "Agentic Retrieval-Augmented Generation (Agentic RAG):  A Survey On Agentic RAG," providing insights into:
 
 - Foundational principles, including **Agentic Patterns** such as reflection, planning, tool use, and multi-agent collaboration.
 - A detailed taxonomy of Agentic RAG systems, showcasing frameworks like single-agent, multi-agent, hierarchical, corrective, adaptive, and graph-based RAG.
