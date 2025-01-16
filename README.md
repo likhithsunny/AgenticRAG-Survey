@@ -432,16 +432,20 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 
 #### 3. Corrective Agentic RAG
 - Agentic AI-Driven Technical Troubleshooting for Enterprise Systems https://arxiv.org/abs/2412.12006
+- Corrective RAG (CRAG) https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_crag/
+- Corrective Retrieval Augmented Generation https://arxiv.org/abs/2401.15884
+- Agentic AI-Driven Technical Troubleshooting for Enterprise Systems https://arxiv.org/abs/2412.12006
 
 #### 4. Adaptive Agentic RAG
-- Agentic RAG: A Complete Guide to Agent-Based Retrieval Augmented Generation https://ragaboutit.com/agentic-rag-a-complete-guide-to-agent-based-retrieval-augmented-generation/
+- Langgraph Adaptive RAG https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_adaptive_rag/
+- MBA-RAG: A Bandit Approach for Adaptive Retrieval-Augmented https://arxiv.org/abs/2412.01572
+- CtrlA: Adaptive Retrieval-Augmented Generation via Inherent Control https://arxiv.org/abs/2405.18727
+- Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity https://arxiv.org/abs/2403.14403
+- AT-RAG: An Adaptive RAG Model Enhancing Query Efficiency with Topic Filtering and Iterative Reasoning https://arxiv.org/abs/2410.12886
 
 #### 5. Graph-Based Agentic RAG
-- Augmenting Textual Generation via Topology Aware Retrieval https://arxiv.org/abs/2405.17602
-
-#### 6. GeAR: Graph-Enhanced Agent for RAG
-- Retrieval Augmented Time Series Forecasting https://arxiv.org/abs/2411.08249
-
+- GeAR: Graph-enhanced Agent for Retrieval-augmented Generation https://arxiv.org/abs/2412.18431
+- Agent-G: An Agentic Framework for Graph Retrieval Augmented Generation https://openreview.net/forum?id=g2C947jjjQ
 
 ### Blogs and Tutorials on Agentic RAG
 1. DeepLearning.AI. How agents can improve LLM performance. [DeepLearning.AI](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?ref=dl-staging-website.ghost.io), 2024. Accessed: 2025-01-13.
