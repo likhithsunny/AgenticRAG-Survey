@@ -473,7 +473,8 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 4. LangGraph Adaptive RAG Tutorial. LangGraph adaptive RAG: Adaptive retrieval-augmented generation tutorial. [LangGraph Adaptive RAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_adaptive_rag/). Accessed: 2025-01-14.
 5. LlamaIndex Blog. Agentic RAG with LlamaIndex. [LlamaIndex Blog](https://www.llamaindex.ai/blog/agentic-rag-with-llamaindex-2721b8a49ff6). Accessed: 2025-01-14.
 6. Hugging Face Cookbook. Agentic RAG: Turbocharge your retrieval-augmented generation with query reformulation and self-query. [Hugging Face Cookbook](https://huggingface.co/learn/cookbook/en/agent_rag). Accessed: 2025-01-14.
-7. Qdrant Blog. Agentic RAG: Combining RAG with agents for enhanced information retrieval. [Qdrant Blog](https://qdrant.tech/articles/agentic-rag/). Accessed: 2025-01-14.
+7. Hugging Face Agentic RAG: https://huggingface.co/docs/smolagents/en/examples/rag
+8. Qdrant Blog. Agentic RAG: Combining RAG with agents for enhanced information retrieval. [Qdrant Blog](https://qdrant.tech/articles/agentic-rag/). Accessed: 2025-01-14.
 
 ---
 
