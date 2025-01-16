@@ -28,8 +28,8 @@ This repository serves as a comprehensive resource for researchers and practitio
 7. 🚧 [Challenges and Future Directions](#challenges-and-future-directions)
 8. 📚 [References](#references)
 9. 🖊️ [How to Cite](#how-to-cite)
-10. 📞 [Contact Information](#contact-information)
-11. 📜 [License](#license)
+<!-- 10. 📞 [Contact Information](#contact-information)
+11. 📜 [License](#license) -->
 
 ---
 
