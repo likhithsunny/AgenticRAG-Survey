@@ -422,6 +422,27 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 
 ## References
 
+### Research Papers on Agentic RAG 
+
+#### 1. Single-Agent RAG (Router-Based)
+- Search-o1: Agentic Search-Enhanced Large Reasoning Models https://arxiv.org/abs/2501.05366
+
+#### 2. Multi-Agent Agentic RAG
+- Agentic Retrieval-Augmented Generation for Time Series Analysis https://arxiv.org/abs/2408.14484
+
+#### 3. Corrective Agentic RAG
+- Agentic AI-Driven Technical Troubleshooting for Enterprise Systems https://arxiv.org/abs/2412.12006
+
+#### 4. Adaptive Agentic RAG
+- Agentic RAG: A Complete Guide to Agent-Based Retrieval Augmented Generation https://ragaboutit.com/agentic-rag-a-complete-guide-to-agent-based-retrieval-augmented-generation/
+
+#### 5. Graph-Based Agentic RAG
+- Augmenting Textual Generation via Topology Aware Retrieval https://arxiv.org/abs/2405.17602
+
+#### 6. GeAR: Graph-Enhanced Agent for RAG
+- Retrieval Augmented Time Series Forecasting https://arxiv.org/abs/2411.08249
+
+
 ### Blogs and Tutorials on Agentic RAG
 1. DeepLearning.AI. How agents can improve LLM performance. [DeepLearning.AI](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?ref=dl-staging-website.ghost.io), 2024. Accessed: 2025-01-13.
 2. Weaviate Blog. What is agentic RAG? [Weaviate Blog](https://weaviate.io/blog/what-is-agentic-rag#:~:text=is%20Agentic%20RAG%3F-,%E2%80%8B,of%20the%20non%2Dagentic%20pipeline), 2024. Accessed: 2025-01-14.
@@ -430,15 +451,6 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 5. LlamaIndex Blog. Agentic RAG with LlamaIndex. [LlamaIndex Blog](https://www.llamaindex.ai/blog/agentic-rag-with-llamaindex-2721b8a49ff6). Accessed: 2025-01-14.
 6. Hugging Face Cookbook. Agentic RAG: Turbocharge your retrieval-augmented generation with query reformulation and self-query. [Hugging Face Cookbook](https://huggingface.co/learn/cookbook/en/agent_rag). Accessed: 2025-01-14.
 7. Qdrant Blog. Agentic RAG: Combining RAG with agents for enhanced information retrieval. [Qdrant Blog](https://qdrant.tech/articles/agentic-rag/). Accessed: 2025-01-14.
-
----
-
-### Research Papers on Agentic RAG and Applications
-1. Meng-Chieh Lee, Qi Zhu, Costas Mavromatis, Zhen Han, Soji Adeshina, Vassilis N. Ioannidis, Huzefa Rangwala, and Christos Faloutsos. Agent-g: An agentic framework for graph retrieval augmented generation, 2024.
-2. Zhili Shen, Chenxin Diao, Pavlos Vougiouklis, Pascual Merita, Shriram Piramanayagam, Damien Graux, Dandan Tu, Zeren Jiang, Ruofei Lai, Yang Ren, and Jeff Z. Pan. GEAR: Graph-enhanced agent for retrieval-augmented generation, 2024.
-3. Chidaksh Ravuru, Sagar Srinivas Sakhinana, and Venkataramana Runkana. Agentic retrieval-augmented generation for time series analysis, 2024.
-4. Shi-Qi Yan, Jia-Chen Gu, Yun Zhu, and Zhen-Hua Ling. Corrective retrieval augmented generation, 2024.
-5. Soyeong Jeong, Jinheon Baek, Sukmin Cho, Sung Ju Hwang, and Jong C. Park. Adaptive-RAG: Learning to adapt retrieval-augmented large language models through question complexity, 2024.
 
 ---
 
