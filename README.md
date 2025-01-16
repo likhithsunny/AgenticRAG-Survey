@@ -495,7 +495,14 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 ---
 
 ### Noteworthy Related Concepts
-1. DeepLearning.AI. Self-refine: Iterative refinement with self-feedback. DeepLearning.AI https://www.deeplearning.ai](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/
+- [Agentic Design Patterns Part 1](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-1/)
+- [Agentic Design Patterns Part 2, Reflection](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-2-reflection/)
+- [Agentic Design Patterns Part 3, Tool Use](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-3-tool-use/)
+- [Agentic Design Patterns Part 4, Planning](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-4-planning/)
+- [Agentic Design Patterns Part 5, Multi-Agent Collaboration](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-5-multi-agent-collaboration/)
+- [Building Agentic RAG with LlamaIndex](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/)
+- [AI Agentic Design Patterns with AutoGen](https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/)
+- [LangGraph Agentic RAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag/#nodes-and-edges)
 
 
 
