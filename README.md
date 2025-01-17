@@ -282,7 +282,10 @@ Agentic Document Workflows (ADW) extend traditional RAG systems by automating do
 
 <div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px; width: 200px; text-align: center;">
   <img src="./assets/agentic_doc_workflow.png" alt="ADW Workflow Diagram" style="width: 50%; height: auto; max-height: 200px;">
-  <p align="left"><em>Figure 9: ADW Workflow Diagram</em></p>
+  <p align="left">
+    <em>Figure 9: ADW Workflow Diagram</em> 
+    <a href="https://www.llamaindex.ai/blog/introducing-agentic-document-workflows" target="_blank">[Source]</a>
+  </p>
 </div>
 
 ---
