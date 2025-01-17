@@ -495,6 +495,7 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 5. AgenticRag CrewAI. [AgenticRag Practical Example](https://github.com/lorenzejay/agentic-rag-practical-example)
 6. Azure RAG Agentic. [Azure GPT RAG Agentic](https://github.com/Azure/gpt-rag-agentic)
 7. Multimodal Agentic RAG. [Multimodal Agentic RAG](https://github.com/AhmedAl93/multimodal-agentic-RAG)
+8. Agentic RAG with Redis, AWS Bedrock, and LlamaIndex. [Agentic RAG](https://github.com/redis-developer/agentic-rag)
    
 
 | Technique                    | Tools                        | Description                                                       | Notebooks |
