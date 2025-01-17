@@ -515,23 +515,20 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 - [LangGraph Agentic RAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag/#nodes-and-edges)
 
 
-
-
-
-
-
 ---
 
-<!-- ## How to Cite
+## How to Cite
 
 If you find this work useful in your research, please cite:
 
 ```bibtex
-@article{agenticRAG,
-  title={Agentic Retrieval-Augmented Generation (RAG): A Comprehensive Survey},
-  author={Your Name and Co-Authors},
-  year={2024},
-  journal={ArXiv},
-  url={https://github.com/YourRepo/AgenticRAG-Survey}
-} -->
+@misc{singh2025agenticretrievalaugmentedgenerationsurvey,
+      title={Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG}, 
+      author={Aditi Singh and Abul Ehtesham and Saket Kumar and Tala Talaei Khoei},
+      year={2025},
+      eprint={2501.09136},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2501.09136}, 
+}
  
