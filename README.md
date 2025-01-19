@@ -26,8 +26,12 @@ This repository serves as a comprehensive resource for researchers and practitio
 5. 🔍 [Comparative Analysis of Agentic RAG Frameworks](#comparative-analysis-of-agentic-rag-frameworks)
 6. 💼 [Applications](#applications)
 7. 🚧 [Challenges and Future Directions](#challenges-and-future-directions)
-8. 📚 [References](#references)
-9. 🖊️ [How to Cite](#how-to-cite)
+8. 🛠️ [Implementation of RAG Agentic Taxonomy: Techniques and Tools](#implementation-of-rag-agentic-taxonomy-techniques-and-tools)
+10. 📰 [Blogs and Tutorials on Agentic RAG](#blogs-and-tutorials-on-agentic-rag)
+11. 🖊️ [Noteworthy Related Concepts](#noteworthy-related-concepts)
+12. 💡 [Practical Implementations and Use Cases of Agentic RAG](#practical-implementations-and-use-cases-of-agentic-rag)
+13. 📚 [References](#references)
+14. 🖊️ [How to Cite](#how-to-cite)
 <!-- 10. 📞 [Contact Information](#contact-information)
 11. 📜 [License](#license) -->
 
@@ -261,27 +265,27 @@ Agentic Document Workflows (ADW) extend traditional RAG systems by automating do
 ### Visual Representations
 
 <div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px; width: 200px; text-align: center;">
-  <img src="./assets/single_agentic_RAG.png" alt="Single-Agent RAG Diagram" style="width: 50%; height: auto; max-height: 200px;">
+  <img src="./assets/single_agentic_RAG.png" alt="Single-Agent RAG Diagram" style="width: 60%; height: auto; max-height: 200px;">
   <p align="left"><em>Figure 5: Single-Agent RAG Diagram</em></p>
 </div>
 
 <div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px; width: 200px; text-align: center;">
-  <img src="./assets/multiagent_agentic_rag.png" alt="Multi-Agent RAG Diagram" style="width: 50%; height: auto; max-height: 200px;">
+  <img src="./assets/multiagent_agentic_rag.png" alt="Multi-Agent RAG Diagram" style="width: 60%; height: auto; max-height: 200px;">
   <p align="left"><em>Figure 6: Multi-Agent RAG Diagram</em></p>
 </div>
 
 <div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px; width: 200px; text-align: center;">
-  <img src="./assets/hierarchical_agentic_rag.png" alt="Hierarchical RAG Workflow" style="width: 50%; height: auto; max-height: 200px;">
+  <img src="./assets/hierarchical_agentic_rag.png" alt="Hierarchical RAG Workflow" style="width: 60%; height: auto; max-height: 200px;">
   <p align="left"><em>Figure 7: Hierarchical RAG Workflow</em></p>
 </div>
 
 <div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px; width: 200px; text-align: center;">
-  <img src="./assets/agent_g.png" alt="Graph-Based RAG Workflow" style="width: 50%; height: auto; max-height: 200px;">
+  <img src="./assets/agent_g.png" alt="Graph-Based RAG Workflow" style="width: 60%; height: auto; max-height: 200px;">
   <p align="left"><em>Figure 8: Graph-Based RAG Workflow</em></p>
 </div>
 
 <div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; margin: 10px; width: 200px; text-align: center;">
-  <img src="./assets/agentic_doc_workflow.png" alt="ADW Workflow Diagram" style="width: 50%; height: auto; max-height: 200px;">
+  <img src="./assets/agentic_doc_workflow.png" alt="ADW Workflow Diagram" style="width: 60%; height: auto; max-height: 200px;">
   <p align="left">
     <em>Figure 9: ADW Workflow Diagram</em> 
     <a href="https://www.llamaindex.ai/blog/introducing-agentic-document-workflows" target="_blank">[Source]</a>
@@ -407,7 +411,6 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
    - Integrating text, image, audio, and video data for richer and more comprehensive outputs.
    - Handling the complexity of multimodal reasoning in real-time applications.
 
-
 ---
 
 ### Future Directions
@@ -431,8 +434,57 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
    - Focusing on explainability and user-centric design.
 
 ---
+## Implementation of RAG Agentic Taxonomy: Techniques and Tools
+| Technique | Tools | Description | Notebooks |
+| --- | --- | --- | --- |
+| Single Agentic RAG | LangChain, FAISS, Athina AI | Uses AI agents to find and generate answers using tools like vectordb and web searches. | [View Notebook](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/basic_agentic_rag.ipynb) |
+|  | LlamaIndex, Vertex AI (Vector Store, Text Embedding, LLM), Google Cloud Storage | Demonstrates a single-router Agentic RAG system using LlamaIndex with Vertex AI for context retrieval and response generation. | [View Notebook](https://docs.llamaindex.ai/en/stable/examples/agent/agentic_rag_using_vertex_ai/) |
+|  | LangChain, IBM Granite-3-8B-Instruct, Watsonx.ai, Chroma DB, WebBaseLoader | Builds an Agentic RAG system using IBM Granite-3-8B-Instruct model in Watsonx.ai to answer complex queries with external information. | [View Notebook](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/AI-Agents/Agentic_RAG.ipynb) |
+|  | LangGraph, Chroma, NVIDIA Inference Microservices (NIMs), Tavily Search API | This system uses a router-based architecture to determine whether a query should be handled by a RAG pipeline (retrieving from a vector database) or a websearch pipeline. An AI agent evaluates the query's topic and routes it to the appropriate pipeline for information retrieval and response generation, ensuring accurate, relevant, and contextually augmented answers. | [View Notebook](https://github.com/NVIDIA/workbench-example-agentic-rag) |
+|  | LlamaIndex, Redis, Amazon Bedrock, RedisVectorStore, LlamaParse, BedrockEmbedding, SemanticCache | This system implements a ReAct agent-based RAG pipeline where the agent interacts with a Redis-backed index and vector store to retrieve and process data from a PDF document. It utilizes Amazon Bedrock embeddings and LlamaIndex to process the document, build embeddings, and handle retrieval-based augmented generation. Additionally, semantic caching optimizes the system by reducing redundant LLM queries for repeated or similar user questions, improving response times and efficiency. | [View Notebook](https://github.com/redis-developer/agentic-rag) |
+| Multi-Agent Agentic RAG Orchestrator | AutoGen, SQL, AI Search Indexes | This orchestrator utilizes a multi-agent system to facilitate complex task execution through coordinated agent interactions. Using a factory pattern and various predefined strategies (e.g., classic_rag for retrieval-augmented generation and nl2sql for translating natural language to SQL), the system enables flexible, multi-agent collaboration for tasks like database querying and document retrieval. The orchestrator supports agent communication, iterative responses, and customizable strategies, offering a high level of adaptability for diverse use cases. | [View Notebook](https://github.com/Azure/gpt-rag-agentic) |
+| Hierarchical Multi-Agent Agentic RAG | Weaviate, ExaSearch, Groq, crewAI | This approach uses a hierarchical agentic architecture with multiple agents, each responsible for specific tasks or tools. A manager agent coordinates the work of specialized agents (such as WeaviateTool for internal document retrieval, ExaSearchTool for web searches, and Groq for fast AI inference) to handle complex queries. The flexible, task-oriented system can support various use cases such as QA and workflow automation. | [View Notebook](https://github.com/lorenzejay/agentic-rag-practical-example) |
+| Corrective RAG | LangChain, LangGraph, Chromadb, Athina AI | Refines relevant documents, removes irrelevant ones or does the web search. | [View Notebook](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/corrective_rag.ipynb) |
+|  | LangChain, FAISS, HuggingFace Inference API, SmolAgents, HyDE, Self-Query | This system incorporates query reformulation and self-query strategies to address limitations in traditional RAG systems. It performs iterative retrieval by critiquing the relevance of retrieved documents and re-querying as needed. The agent refines queries to improve semantic similarity and ensure higher accuracy. Self-grading mechanisms assess the quality of retrieved information, enhancing results through iterative improvement. The system aligns with Corrective RAG principles by reducing confabulations and improving retrieval relevance. | [View Notebook](https://github.com/aymericroucher/agentic-rag-query-reformulation) |
+| Adaptive RAG | LangChain, LangGraph, FAISS, Athina AI | Adjusts retrieval methods based on query type, using indexed data or web search. | [View Notebook](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/adaptive_rag.ipynb) |
+<!-- | ReAct RAG      | LangChain, LangGraph, FAISS, Athina AI                    |  System combining reasoning and retrieval for context-aware responses| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/react_rag.ipynb) |
+| Self RAG     | LangChain, LangGraph, FAISS, Athina AI                    | Reflects on retrieved data to ensure accurate and complete responses.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/self_rag.ipynb) | -->
+
+---
+## Blogs and Tutorials on Agentic RAG
+1. DeepLearning.AI. How agents can improve LLM performance. [DeepLearning.AI](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?ref=dl-staging-website.ghost.io)
+2. Weaviate Blog. What is agentic RAG? [Weaviate Blog](https://weaviate.io/blog/what-is-agentic-rag#:~:text=is%20Agentic%20RAG%3F-,%E2%80%8B,of%20the%20non%2Dagentic%20pipeline)
+3. LangGraph CRAG Tutorial. LangGraph CRAG: Contextualized retrieval-augmented generation tutorial. [LangGraph CRAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_crag/)
+4. LangGraph Adaptive RAG Tutorial. LangGraph adaptive RAG: Adaptive retrieval-augmented generation tutorial. [LangGraph Adaptive RAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_adaptive_rag/). Accessed: 2025-01-14.
+5. LlamaIndex Blog. Agentic RAG with LlamaIndex. [LlamaIndex Blog](https://www.llamaindex.ai/blog/agentic-rag-with-llamaindex-2721b8a49ff6)
+6. Hugging Face Cookbook. Agentic RAG: Turbocharge your retrieval-augmented generation with query reformulation and self-query. [Hugging Face Cookbook](https://huggingface.co/learn/cookbook/en/agent_rag)
+7. Hugging Face Agentic RAG: https://huggingface.co/docs/smolagents/en/examples/rag
+8. Qdrant Blog. Agentic RAG: Combining RAG with agents for enhanced information retrieval. [Qdrant Blog](https://qdrant.tech/articles/agentic-rag/)
+   
+---
 
 
+## Practical Implementations and Use Cases of Agentic RAG
+1. AWS Machine Learning Blog. How Twitch used agentic workflow with RAG on Amazon Bedrock to supercharge ad sales. [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/how-twitch-used-agentic-workflow-with-rag-on-amazon-bedrock-to-supercharge-ad-sales/)
+2. LlamaCloud Demo Repository. Patient case summary workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/document_workflows/patient_case_summary/patient_case_summary.ipynb) 2025. Accessed: 2025-01-13.
+3. LlamaCloud Demo Repository. Contract review workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/document_workflows/contract_review/contract_review.ipynb)
+4. LlamaCloud Demo Repository. Auto insurance claims workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/document_workflows/auto_insurance_claims/auto_insurance_claims.ipynb)
+5. LlamaCloud Demo Repository. Research paper report generation workflow using LlamaCloud.[GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/report_generation/research_paper_report_generation.ipynb)
+
+---
+
+### Noteworthy Related Concepts
+- [Agentic Design Patterns Part 1](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?ref=dl-staging-website.ghost.io)
+- [Agentic Design Patterns Part 2, Reflection](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-2-reflection/)
+- [Agentic Design Patterns Part 3, Tool Use](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-3-tool-use/)
+- [Agentic Design Patterns Part 4, Planning](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-4-planning/)
+- [Agentic Design Patterns Part 5, Multi-Agent Collaboration](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-5-multi-agent-collaboration/)
+- [Building Agentic RAG with LlamaIndex](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/)
+- [AI Agentic Design Patterns with AutoGen](https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/)
+- [LangGraph Agentic RAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag/#nodes-and-edges)
+
+
+---
 ## References
 
 ### Research Papers on Agentic RAG 
@@ -465,56 +517,6 @@ While Agentic Retrieval-Augmented Generation (RAG) systems show immense promise,
 #### 5. Graph-Based Agentic RAG
 - GeAR: Graph-enhanced Agent for Retrieval-augmented Generation https://arxiv.org/abs/2412.18431
 - Agent-G: An Agentic Framework for Graph Retrieval Augmented Generation https://openreview.net/forum?id=g2C947jjjQ
-
-### Blogs and Tutorials on Agentic RAG
-1. DeepLearning.AI. How agents can improve LLM performance. [DeepLearning.AI](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?ref=dl-staging-website.ghost.io)
-2. Weaviate Blog. What is agentic RAG? [Weaviate Blog](https://weaviate.io/blog/what-is-agentic-rag#:~:text=is%20Agentic%20RAG%3F-,%E2%80%8B,of%20the%20non%2Dagentic%20pipeline)
-3. LangGraph CRAG Tutorial. LangGraph CRAG: Contextualized retrieval-augmented generation tutorial. [LangGraph CRAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_crag/)
-4. LangGraph Adaptive RAG Tutorial. LangGraph adaptive RAG: Adaptive retrieval-augmented generation tutorial. [LangGraph Adaptive RAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_adaptive_rag/). Accessed: 2025-01-14.
-5. LlamaIndex Blog. Agentic RAG with LlamaIndex. [LlamaIndex Blog](https://www.llamaindex.ai/blog/agentic-rag-with-llamaindex-2721b8a49ff6)
-6. Hugging Face Cookbook. Agentic RAG: Turbocharge your retrieval-augmented generation with query reformulation and self-query. [Hugging Face Cookbook](https://huggingface.co/learn/cookbook/en/agent_rag)
-7. Hugging Face Agentic RAG: https://huggingface.co/docs/smolagents/en/examples/rag
-8. Qdrant Blog. Agentic RAG: Combining RAG with agents for enhanced information retrieval. [Qdrant Blog](https://qdrant.tech/articles/agentic-rag/)
-
----
-
-### Applications of Agentic RAG
-1. AWS Machine Learning Blog. How Twitch used agentic workflow with RAG on Amazon Bedrock to supercharge ad sales. [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/how-twitch-used-agentic-workflow-with-rag-on-amazon-bedrock-to-supercharge-ad-sales/)
-2. LlamaCloud Demo Repository. Patient case summary workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/document_workflows/patient_case_summary/patient_case_summary.ipynb) 2025. Accessed: 2025-01-13.
-3. LlamaCloud Demo Repository. Contract review workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/document_workflows/contract_review/contract_review.ipynb)
-4. LlamaCloud Demo Repository. Auto insurance claims workflow using LlamaCloud. [GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/document_workflows/auto_insurance_claims/auto_insurance_claims.ipynb)
-5. LlamaCloud Demo Repository. Research paper report generation workflow using LlamaCloud.[GitHub](https://github.com/run-llama/llamacloud-demo/blob/main/examples/report_generation/research_paper_report_generation.ipynb)
-
----
-
-### Implementation of RAG Agentic Taxonomy: Techniques and Tools
-| Technique | Tools | Description | Notebooks |
-| --- | --- | --- | --- |
-| Single Agentic RAG | LangChain, FAISS, Athina AI | Uses AI agents to find and generate answers using tools like vectordb and web searches. | [View Notebook](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/basic_agentic_rag.ipynb) |
-|  | LlamaIndex, Vertex AI (Vector Store, Text Embedding, LLM), Google Cloud Storage | Demonstrates a single-router Agentic RAG system using LlamaIndex with Vertex AI for context retrieval and response generation. | [View Notebook](https://docs.llamaindex.ai/en/stable/examples/agent/agentic_rag_using_vertex_ai/) |
-|  | LangChain, IBM Granite-3-8B-Instruct, Watsonx.ai, Chroma DB, WebBaseLoader | Builds an Agentic RAG system using IBM Granite-3-8B-Instruct model in Watsonx.ai to answer complex queries with external information. | [View Notebook](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/AI-Agents/Agentic_RAG.ipynb) |
-|  | LangGraph, Chroma, NVIDIA Inference Microservices (NIMs), Tavily Search API | This system uses a router-based architecture to determine whether a query should be handled by a RAG pipeline (retrieving from a vector database) or a websearch pipeline. An AI agent evaluates the query's topic and routes it to the appropriate pipeline for information retrieval and response generation, ensuring accurate, relevant, and contextually augmented answers. | [View Notebook](https://github.com/NVIDIA/workbench-example-agentic-rag) |
-|  | LlamaIndex, Redis, Amazon Bedrock, RedisVectorStore, LlamaParse, BedrockEmbedding, SemanticCache | This system implements a ReAct agent-based RAG pipeline where the agent interacts with a Redis-backed index and vector store to retrieve and process data from a PDF document. It utilizes Amazon Bedrock embeddings and LlamaIndex to process the document, build embeddings, and handle retrieval-based augmented generation. Additionally, semantic caching optimizes the system by reducing redundant LLM queries for repeated or similar user questions, improving response times and efficiency. | [View Notebook](https://github.com/redis-developer/agentic-rag) |
-| Multi-Agent Agentic RAG Orchestrator | AutoGen, SQL, AI Search Indexes | This orchestrator utilizes a multi-agent system to facilitate complex task execution through coordinated agent interactions. Using a factory pattern and various predefined strategies (e.g., classic_rag for retrieval-augmented generation and nl2sql for translating natural language to SQL), the system enables flexible, multi-agent collaboration for tasks like database querying and document retrieval. The orchestrator supports agent communication, iterative responses, and customizable strategies, offering a high level of adaptability for diverse use cases. | [View Notebook](https://github.com/Azure/gpt-rag-agentic) |
-| Hierarchical Multi-Agent Agentic RAG | Weaviate, ExaSearch, Groq, crewAI | This approach uses a hierarchical agentic architecture with multiple agents, each responsible for specific tasks or tools. A manager agent coordinates the work of specialized agents (such as WeaviateTool for internal document retrieval, ExaSearchTool for web searches, and Groq for fast AI inference) to handle complex queries. The flexible, task-oriented system can support various use cases such as QA and workflow automation. | [View Notebook](https://github.com/lorenzejay/agentic-rag-practical-example) |
-| Corrective RAG | LangChain, LangGraph, Chromadb, Athina AI | Refines relevant documents, removes irrelevant ones or does the web search. | [View Notebook](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/corrective_rag.ipynb) |
-|  | LangChain, FAISS, HuggingFace Inference API, SmolAgents, HyDE, Self-Query | This system incorporates query reformulation and self-query strategies to address limitations in traditional RAG systems. It performs iterative retrieval by critiquing the relevance of retrieved documents and re-querying as needed. The agent refines queries to improve semantic similarity and ensure higher accuracy. Self-grading mechanisms assess the quality of retrieved information, enhancing results through iterative improvement. The system aligns with Corrective RAG principles by reducing confabulations and improving retrieval relevance. | [View Notebook](https://github.com/aymericroucher/agentic-rag-query-reformulation) |
-| Adaptive RAG | LangChain, LangGraph, FAISS, Athina AI | Adjusts retrieval methods based on query type, using indexed data or web search. | [View Notebook](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/adaptive_rag.ipynb) |
-<!-- | ReAct RAG      | LangChain, LangGraph, FAISS, Athina AI                    |  System combining reasoning and retrieval for context-aware responses| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/react_rag.ipynb) |
-| Self RAG     | LangChain, LangGraph, FAISS, Athina AI                    | Reflects on retrieved data to ensure accurate and complete responses.| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/self_rag.ipynb) | -->
-
----
-
-### Noteworthy Related Concepts
-- [Agentic Design Patterns Part 1](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?ref=dl-staging-website.ghost.io)
-- [Agentic Design Patterns Part 2, Reflection](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-2-reflection/)
-- [Agentic Design Patterns Part 3, Tool Use](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-3-tool-use/)
-- [Agentic Design Patterns Part 4, Planning](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-4-planning/)
-- [Agentic Design Patterns Part 5, Multi-Agent Collaboration](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-5-multi-agent-collaboration/)
-- [Building Agentic RAG with LlamaIndex](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/)
-- [AI Agentic Design Patterns with AutoGen](https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/)
-- [LangGraph Agentic RAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag/#nodes-and-edges)
-
 
 ---
 
