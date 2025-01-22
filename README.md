@@ -111,7 +111,11 @@ Agentic RAG systems derive their intelligence and adaptability from well-defined
 - **Key Benefits**:
   - Handles large-scale and distributed problems efficiently.
   - Combines specialized agent capabilities for better outcomes.
-- **Example**: In customer support, agents collaborate to retrieve knowledge from FAQs, generate responses, and provide follow-ups.
+- **Example**:
+- In customer support, agents collaborate to retrieve knowledge from FAQs, generate responses, and provide follow-ups.
+- **LawGlance** simplifies legal research by leveraging **multi-agent workflows** to retrieve relevant documents, analyze information, and deliver precise legal insights.
+				It integrates Crew AI, LangChain, and Chroma to retrieve legal documents, perform web searches, and provide concise, accurate answers tailored to user queries.  
+  [Access LawGlance on Google Colab](https://colab.research.google.com/drive/1yrS2Kp-kprYWot_sEu7JeWMIRAei_vov?usp=sharing#scrollTo=80NmedKtmCtI)
 
 <div style="border: 1px solid #ddd; padding: 10px; background-color: white; display: inline-block; text-align: left; margin: 10px; width: 200px;">
   <img src="./assets/multi_agent_pattern.png" alt="Multi-Agent Collaboration Pattern" style="width: 50%; height: auto; max-height: 200px;">
